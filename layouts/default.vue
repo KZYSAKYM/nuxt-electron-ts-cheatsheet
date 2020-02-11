@@ -3,8 +3,6 @@
     <Navbar />
     <br><br><br>
     <div class="navbar-divider"/>
-    <ContentHeader />
-    <br><br>
     <nuxt />
   </div>
 </template>
@@ -71,5 +69,20 @@ html {
 .button--grey:hover {
   color: #fff;
   background-color: #35495e;
+}
+
+.button--red {
+  display: inline-block;
+  border-radius: 4px;
+  border: 1px solid #350000;
+  color: #b90f03;
+  text-decoration: none;
+  padding: 10px 30px;
+  margin-left: 15px;
+}
+
+.button--red:hover {
+  color: #fff;
+  background-color: #350000;
 }
 </style>

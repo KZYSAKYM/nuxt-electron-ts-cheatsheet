@@ -34,44 +34,44 @@
             :class="{'is-active': burger.isActive}">
         <div class="navbar-start">
           <div class="navbar-item has-dropdown is-hoverable container-fluid">
-            <a class="navbar-link is-active" href="https://wiki.automotivelinux.org/">
+            <a class="navbar-link is-active" target="_blank" href="https://wiki.automotivelinux.org/">
               Wiki
             </a>
             <div class="navbar-dropdown is-boxed is-right">
-              <a class="navbar-item " href="https://wiki.automotivelinux.org/agl-sat/">
+              <a class="navbar-item " target="_blank" href="https://wiki.automotivelinux.org/agl-sat/">
                 System Architecture Team
               </a>
-              <a class="navbar-item " href="https://wiki.automotivelinux.org/eg-app-fw/">
+              <a class="navbar-item " target="_blank" href="https://wiki.automotivelinux.org/eg-app-fw/">
                 App Framework and Security
               </a>
-              <a class="navbar-item " href="https://wiki.automotivelinux.org/eg-connectivity/">
+              <a class="navbar-item " target="_blank" href="https://wiki.automotivelinux.org/eg-connectivity/">
                 Connectivity
               </a>
-              <a class="navbar-item " href="https://wiki.automotivelinux.org/eg-ciat/">
+              <a class="navbar-item " target="_blank" href="https://wiki.automotivelinux.org/eg-ciat/">
                 Continuous Intergration and Test
               </a>
-              <a class="navbar-item " href="https://wiki.automotivelinux.org/eg-ic/">
+              <a class="navbar-item " target="_blank" href="https://wiki.automotivelinux.org/eg-ic/">
                 Instrument Cluster
               </a>
-              <a class="navbar-item " href="https://wiki.automotivelinux.org/eg-navi/">
+              <a class="navbar-item " target="_blank" href="https://wiki.automotivelinux.org/eg-navi/">
                 Navigation
               </a>
-              <a class="navbar-item " href="https://wiki.automotivelinux.org/eg-rhsa/">
+              <a class="navbar-item " target="_blank" href="https://wiki.automotivelinux.org/eg-rhsa/">
                 Reference Hardware System Architecture
               </a>
-              <a class="navbar-item " href="https://wiki.automotivelinux.org/eg-speech/">
+              <a class="navbar-item " target="_blank" href="https://wiki.automotivelinux.org/eg-speech/">
                 Speech
               </a>
-              <a class="navbar-item " href="https://wiki.automotivelinux.org/eg-requirements-specification/">
+              <a class="navbar-item " target="_blank" href="https://wiki.automotivelinux.org/eg-requirements-specification/">
                 System Spec
               </a>
-              <a class="navbar-item " href="https://wiki.automotivelinux.org/eg-ui-graphics/">
+              <a class="navbar-item " target="_blank" href="https://wiki.automotivelinux.org/eg-ui-graphics/">
                 UI and Graphics
               </a>
-              <a class="navbar-item " href="https://wiki.automotivelinux.org/eg-v2c/">
+              <a class="navbar-item " target="_blank" href="https://wiki.automotivelinux.org/eg-v2c/">
                 Vehicle to Cloud
               </a>
-              <a class="navbar-item " href="https://wiki.automotivelinux.org/eg-virt/">
+              <a class="navbar-item " target="_blank" href="https://wiki.automotivelinux.org/eg-virt/">
                 Virtualization
               </a>
               <hr class="navbar-divider">

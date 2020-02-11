@@ -1,7 +1,6 @@
 <template>
   <div class="container">
     <div>
-      <ContentHeader /><br><br>
       <Logo />
       <h1 class="title">
         nuxt-electron-ts-template
@@ -25,13 +24,14 @@
           GitHub
         </a>
         <a
-          href="/reverse"
+          href="/"
           target="_self"
           class="button--red"
         >
-          Reverse
+          Normal
         </a>
       </div>
+      <br><br><ContentHeader />
     </div>
   </div>
 </template>
