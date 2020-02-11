@@ -1,17 +1,23 @@
 <template>
   <div>
+    <Navbar />
+    <br><br><br>
+    <div class="navbar-divider"/>
     <ContentHeader />
+    <br><br>
     <nuxt />
   </div>
 </template>
 
 <script lang="ts">
+import Navbar from '~/components/Navbar.vue';
 import ContentHeader from '~/components/ContentHeader.vue';
 import { Component, Vue } from 'nuxt-property-decorator';
 
 @Component({
   components: {
     ContentHeader,
+    Navbar
   },
 })
 

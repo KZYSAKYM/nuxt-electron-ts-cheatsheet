@@ -26,4 +26,10 @@ export default class extends Vue { }
 </script>
 
 <style>
+#header {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
 </style>

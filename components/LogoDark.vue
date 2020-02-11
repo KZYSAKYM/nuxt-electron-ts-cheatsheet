@@ -21,6 +21,10 @@
 .NuxtLogoDark {
   animation: 1s appear;
   margin: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
 }
 
 @keyframes appear {
