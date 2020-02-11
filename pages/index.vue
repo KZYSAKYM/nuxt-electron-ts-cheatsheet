@@ -1,17 +1,5 @@
 <template>
   <div class="container-fluid">
-    <!-- Contents Header -->
-    <section id="header" class="hero is-dark is-small">
-      <div class="hero-body">
-        <LogoDark />
-        <p class="title">
-          Nuxt Electron Typescript Cheet Sheet
-        </p>
-        <p class="subtitle">
-          and, Bulma CSS Framework cheet sheet
-        </p>
-      </div>
-    </section>
     <div>
       <Logo />
       <h1 class="title">
