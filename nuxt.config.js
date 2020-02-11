@@ -1,6 +1,6 @@
-
-export default {
+module.exports = {
   mode: 'spa',
+  dev: process.env.NODE_ENV === 'DEV',
   /*
   ** Headers of the page
   */
