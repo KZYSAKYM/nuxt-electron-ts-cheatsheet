@@ -12,7 +12,7 @@ module.exports = {
       { hid: 'description', name: 'description', content: process.env.npm_package_description || '' }
     ],
     link: [
-      { rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' }
+      { rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' },
     ]
   },
   /*
@@ -23,6 +23,8 @@ module.exports = {
   ** Global CSS
   */
   css: [
+    { src: 'bulma/css/bulma.css', },
+    { src: 'assets/global.css'},
   ],
   /*
   ** Plugins to load before mounting the App

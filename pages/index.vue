@@ -1,7 +1,19 @@
 <template>
-  <div class="container">
+  <div class="container-fluid">
+    <!-- Contents Header -->
+    <section id="header" class="hero is-dark is-small">
+      <div class="hero-body">
+        <LogoDark />
+        <p class="title">
+          Nuxt Electron Typescript Cheet Sheet
+        </p>
+        <p class="subtitle">
+          and, Bulma CSS Framework cheet sheet
+        </p>
+      </div>
+    </section>
     <div>
-      <logo />
+      <Logo />
       <h1 class="title">
         nuxt-electron-ts-template
       </h1>
@@ -30,10 +42,12 @@
 
 <script lang="ts">
 import Logo from '~/components/Logo.vue';
+import LogoDark from '~/components/LogoDark.vue';
 import { Component, Vue } from 'nuxt-property-decorator';
 
 @Component({
   components: {
+    LogoDark,
     Logo,
   },
 })
