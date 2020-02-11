@@ -33,7 +33,7 @@
       <div id="menu-item-list" class="navbar-menu"
             :class="{'is-active': burger.isActive}">
         <div class="navbar-start">
-          <div class="navbar-item has-dropdown is-hoverable">
+          <div class="navbar-item has-dropdown is-hoverable container-fluid">
             <a class="navbar-link is-active" href="https://wiki.automotivelinux.org/">
               Wiki
             </a>
@@ -143,7 +143,6 @@ export default {
 
 <style>
 .navbar-item {
-  display: flex;
   text-align: bottom;
   justify-content: left;
   align-items: left;
